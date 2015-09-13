@@ -1,0 +1,125 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>RESTFULL API</title> 
+<link href="css/bootstrap.css" rel="stylesheet" />
+<style type="text/css">
+body {padding-top: 30px;}
+</style>
+</head>
+<body>
+	<a class='brand'> <h2>RESTFULL API</h2> </a> 
+								
+	<div class="row-fluid" style="margin-right:20px>
+		<div class="span6">
+			
+			
+		</div>
+		<div class="span6">
+			<h2>STUDENTS</h2> 
+			<form id="restfullForm">  
+				<fieldset>
+					<label>STUDENT NUMBER:</label>  <input type="text" id="STUDENT NUMBER" name="STUDENT NUMBER" required /> 
+					<label>AGE:</label> <input type="text" id="AGE" name="AGE" required/> 
+					<label>NATIONALITY ID:</label> <input type="text" id="NATIONALITY ID" name="NATIONALITY ID" required/> 
+					<P>
+					<button id="btnSave" class="btn btn-primary">Save</button>
+					
+					</p>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<hr>
+	<div class="row-fluid" style="margin-left:20px>   
+		<div class="span6">
+			
+			<ul id="restfullList"></ul>
+		</div>
+		<div class="span6">
+			<h2>LECTURERS</h2>  
+			<form id="restfullForm">     
+				<fieldset>
+					<label> LECTURER ID:</label>  <input type="text" id="restfullId" name="LECTURER ID" required /> 
+					
+					<label>NAME:</label> <input type="text" id="authors" name="NAME" required/> 
+					<P>
+					<button id="btnSave" class="btn btn-primary">Save</button>
+						
+					</p>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<hr>
+	<div class="row-fluid" style="margin-left:20px>   
+		<div class="span6">
+			
+			<ul id="restfullList"></ul>
+		</div>
+		<div class="span6">
+			<h2>COURSES</h2>   
+			<form id="restfullForm">     
+				<fieldset>
+					<label>COURSE_ID:</label>  <input type="text" id="restfullId" name="id" required /> 
+					<label>DESCRIPTION:</label> <input type="text" id="DESCRIPTION" name="DESCRIPTION" required/> 
+					<label>LECTURE ID:</label> <input type="text" id="LECTURE ID" name="LECTURE ID" required/> 
+					<P>
+					<button id="btnSave" class="btn btn-primary">Save</button>
+						
+					</p>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<hr>
+	<div class="row-fluid" style="margin-left:20px>   
+		<div class="span6">
+			
+			<ul id="restfullList"></ul>
+		</div>
+		<div class="span6">
+			<h2>NATIONALITIES</h2>   
+			<form id="restfullForm">     
+				<fieldset>
+					<label>ID:</label>  <input type="text" id="restfullId" name="ID" required /> 
+					<label>DESCRIPTION:</label> <input type="text" id="DESCRIPTION" name="DESCRIPTION" required/> 
+					
+					<P>
+					<button id="btnSave" class="btn btn-primary">Save</button>
+						
+					</p>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<hr>
+	<div class="row-fluid" style="margin-left:20px>   
+		<div class="span6">
+			
+			<ul id="restfullList"></ul>
+		</div>
+		<div class="span6">
+			<h2>TASKS</h2>  
+			<form id="restfullForm">    
+				<fieldset>
+					<label>TASK_ID:</label>  <input type="text" id="restfullId" name="TASK_ID" required /> 
+					<label>DESCRIPTION:</label> <input type="text" id="title" name="DESCRIPTION" required/> 
+					<label>DATE</label> <input type="text" id="authors" name="DATE" required/> 
+						<label>DURATION</label> <input type="text" id="authors" name="DURATION" required/>  
+							<label>DAYTIME</label> <input type="text" id="authors" name="DAYTIME" required/> 
+								<label>COURSE ID</label> <input type="text" id="authors" name="COURSE ID" required/>  
+					<P>
+					<button id="btnSave" class="btn btn-primary">Save</button>
+						
+					</p>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<hr>
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
